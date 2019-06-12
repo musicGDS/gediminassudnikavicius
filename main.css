@@ -1,0 +1,250 @@
+* {
+/*    font-family: 'Acme', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.body {
+    width: 100%;
+}
+
+/* start of medium tablet styles */
+    .container {
+        width: 95%;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+@media screen and (min-width: 767px) {
+     .container {
+  width: 75%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+
+html, body {  padding: 0;  margin: 0;}
+
+p,
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: rgb(251, 255, 238);
+    font-style: normal;
+/*    font-family: labelFont;*/
+}
+
+h3 {
+    font-size: 200% ;
+}
+
+p {
+    font-size: 110%
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    
+    width: 100%;
+    }
+
+.rcorners {
+    border-radius: 5px;
+}
+
+.dimm-background {
+    background: rgb(255, 235, 59); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 253, 231, 0.2);
+  background-blend-mode: screen;
+    
+}
+.masthead {
+    min-height: 16rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  background-image: url(img/bg-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+/* @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-size: 5.5rem;
+    }
+} */
+
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 16px;
+    color: snow;
+    background-color: forestgreen;
+    text-decoration: none;
+    margin: 8px;
+/*    box-shadow: 5px 10px 8px #888888;*/
+    border-radius: 3px;
+    font-weight: 700;
+    flex-grow: 1;
+    max-width: 140px;
+    text-align: center;
+}
+
+.button_area {
+    float: center;
+    margin-top: 4%;
+}
+
+
+
+.flex-container-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/*Grid*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.section-flex {
+    display: flex;
+}
+
+/* About */
+.about-img {
+    height: 100%;
+}
+
+.about-text {
+/*    background-color: forestgreen; */
+    padding-left: 16px;
+    padding-right: 16px;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.veikla {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.veikla-btn {
+    float: center;
+    margin:auto;
+}
+
+/* Contact */
+.contact {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: snow;
+}
+
+.contacts-member {
+    display: flex;
+}
+
+.contact-img {
+    height: 32px;
+    width: auto;
+}
+
+/*Table Prefs*/
+
+table{
+    table-layout: fixed;
+}
+
+td{
+    word-wrap:break-word
+}
+
+#about {
+    background-color: black;
+}
+
+#music {
+    background:url(img/musicRecordings2.jpg);
+/*    background-position: top;*/
+}
+
+#design {
+    background-image: url(img/soundDesign2.jpg);
+}
+
+#restoration {
+    background: url(img/soundRestoration.png);
+/*    vertical-align: middle;*/
+}
+
+#live {
+    vertical-align: middle;
+    background-image: url(img/LiveSoundBackground.jpg) 
+}
+
+.about-container {
+    width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile-img {
+    border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+}
+
+.titles {
+    margin: 16px;
+}
